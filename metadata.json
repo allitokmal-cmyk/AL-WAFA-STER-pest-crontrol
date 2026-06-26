@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Remix: Al Wafa2 Star ERP",
+  "description": "Smart Pest Control \u0026 Medical Facility Management System for Al Wafa Star",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

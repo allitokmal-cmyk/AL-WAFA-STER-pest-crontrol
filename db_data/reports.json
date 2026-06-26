@@ -1,0 +1,475 @@
+[
+  {
+    "id": "REP-2026-001",
+    "facilityName": "Al Hamidiyah Health Center",
+    "clientId": "ALW-CLI-3901",
+    "contractNo": "CON-4820-A",
+    "branchName": "Ajman Main Sector",
+    "facilityType": "Health Center",
+    "emirate": "Ajman",
+    "address": "Al Hamidiyah, Ajman Near Post Office",
+    "contactPerson": "Dr. Amna Al Shamsi",
+    "mobile": "+971 50 123 4567",
+    "whatsapp": "+971 50 123 4567",
+    "email": "hamidiyah.hc@moh.gov.ae",
+    "startDate": "2026-01-01",
+    "endDate": "2026-12-31",
+    "validity": "Quarterly",
+    "dateOfOperation": "2026-05-24",
+    "ticketNo": "TKT-39102-AQ",
+    "startTime": "08:30",
+    "endTime": "10:15",
+    "duration": "1h 45m",
+    "categories": [
+      "General Pest Control (GPC)",
+      "Rodent Control (RCP)",
+      "Flying Insect Control (FICP)"
+    ],
+    "areas": ["Rooms", "Kitchen", "Pantry", "Common Area", "Drainage"],
+    "reportText": "Full floor treatment spraying completed for general ward clinics, kitchen, staff pantry, toilets, and peripheral outdoor main drainage. Standard residual treatment applied for crawling insects. Rodent monitoring stations inspected and 2 traps re-baited with Advion rodent block.",
+    "workStatus": "Completed",
+    "methods": ["Spraying", "Residual Treatment", "Gel Baiting", "Trapping"],
+    "chemicals": [
+      {
+        "name": "Deltacide SC",
+        "dilution": "10ml / 1L",
+        "used": "75ml",
+        "batch": "DT-2025-X8",
+        "expiry": "2027-11-20",
+        "remaining": "4.25L"
+      },
+      {
+        "name": "Advion Gel",
+        "dilution": "N/A",
+        "used": "5g",
+        "batch": "AG-9426",
+        "expiry": "2028-04-15",
+        "remaining": "120g"
+      },
+      {
+        "name": "Cypermethrin",
+        "dilution": "5ml / 1L",
+        "used": "50ml",
+        "batch": "CP-441-S",
+        "expiry": "2027-08-10",
+        "remaining": "1.85L"
+      }
+    ],
+    "infestation": {
+      "Cockroach": "Low",
+      "Mosquito": "None",
+      "Drain Fly": "Low",
+      "Rodent": "Medium",
+      "Bed Bug": "None",
+      "Ants": "Low"
+    },
+    "sanitation": "Good",
+    "proofing": "Satisfactory",
+    "recommendations": [
+      "Improve kitchen cleaning schedule",
+      "Keep drainage covered"
+    ],
+    "billing": {
+      "invoiceNo": "INV-2026-0012",
+      "invoiceDate": "2026-05-24",
+      "amount": 1200,
+      "discount": 100,
+      "vat": 55,
+      "total": 1155,
+      "method": "Bank Transfer",
+      "status": "Paid"
+    },
+    "technicians": ["Hussin", "Ahmed"],
+    "signatures": {
+      "client": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 20 Q30 10 50 30 T90 10' stroke='black' stroke-width='2' fill='none'/></svg>",
+      "technician": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 30 C30 5 70 35 90 20' stroke='blue' stroke-width='1.5' fill='none'/></svg>",
+      "supervisor": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M5 15 L25 35 L45 5 L65 30 L85 10' stroke='green' stroke-width='2' fill='none'/></svg>"
+    }
+  },
+  {
+    "id": "REP-2026-002",
+    "facilityName": "Al Kuwait Hospital",
+    "clientId": "ALW-CLI-4028",
+    "contractNo": "CON-9921-X",
+    "branchName": "Dubai Deira Branch",
+    "facilityType": "Hospital",
+    "emirate": "Dubai",
+    "address": "Al Kuwait Hospital, Sabkha, Deira, Dubai",
+    "contactPerson": "Eng. Sayed Abdul Rahman",
+    "mobile": "+971 52 555 1294",
+    "whatsapp": "+971 52 555 1294",
+    "email": "s.rahman@kuwaithospital.ae",
+    "startDate": "2025-10-10",
+    "endDate": "2026-10-09",
+    "validity": "Monthly",
+    "dateOfOperation": "2026-05-25",
+    "ticketNo": "TKT-41235-DB",
+    "startTime": "21:00",
+    "endTime": "23:30",
+    "duration": "2h 30m",
+    "categories": [
+      "Flying Insect Control (FICP)",
+      "Mosquito Fogging",
+      "Sanitization Service"
+    ],
+    "areas": ["Utility Area", "Outdoor Area", "Basement", "Garden", "Drainage"],
+    "reportText": "Thermal outdoor mosquito fogging conducted across hospital boundary bushes, garden walks, and parking lots. Sub-basement utilities treated for drain fly infestations. Hand sanitization and surface disinfection performed on loading bays.",
+    "workStatus": "Completed",
+    "methods": ["Fogging", "Spraying", "Residual Treatment", "Space Treatment"],
+    "chemicals": [
+      {
+        "name": "Deltacide SC",
+        "dilution": "10ml / 1L",
+        "used": "120ml",
+        "batch": "DT-2025-X8",
+        "expiry": "2027-11-20",
+        "remaining": "4.13L"
+      },
+      {
+        "name": "Cypermethrin",
+        "dilution": "5ml / 1L",
+        "used": "100ml",
+        "batch": "CP-441-S",
+        "expiry": "2027-08-10",
+        "remaining": "1.75L"
+      }
+    ],
+    "infestation": {
+      "Cockroach": "None",
+      "Mosquito": "High",
+      "Drain Fly": "Medium",
+      "Rodent": "Low",
+      "Bed Bug": "None",
+      "Ants": "None"
+    },
+    "sanitation": "Satisfactory",
+    "proofing": "Good",
+    "recommendations": [
+      "Keep drainage covered",
+      "Maintain waste disposal schedule"
+    ],
+    "billing": {
+      "invoiceNo": "INV-2026-0015",
+      "invoiceDate": "2026-05-25",
+      "amount": 2500,
+      "discount": 250,
+      "vat": 112.5,
+      "total": 2362.5,
+      "method": "Bank Transfer",
+      "status": "Pending"
+    },
+    "technicians": ["Hamdy", "Hussin"],
+    "signatures": {
+      "client": "",
+      "technician": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 30 C30 5 70 35 90 20' stroke='blue' stroke-width='1.5' fill='none'/></svg>",
+      "supervisor": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M5 15 L25 35 L45 5 L65 30 L85 10' stroke='green' stroke-width='2' fill='none'/></svg>"
+    }
+  },
+  {
+    "id": "REP-2026-003",
+    "facilityName": "Smart Salem Medical Fitness Centre",
+    "clientId": "ALW-CLI-4030",
+    "contractNo": "CON-3801-S",
+    "branchName": "Dubai City Walk",
+    "facilityType": "Medical Center",
+    "emirate": "Dubai",
+    "address": "City Walk, Building 3, Al Wasl Road, Dubai",
+    "contactPerson": "Mr. Saeed Al Falasi",
+    "mobile": "+971 55 401 2284",
+    "whatsapp": "+971 55 401 2284",
+    "email": "info@smartsalem-fitness.ae",
+    "startDate": "2026-01-15",
+    "endDate": "2027-01-14",
+    "validity": "Monthly",
+    "dateOfOperation": "2026-05-22",
+    "ticketNo": "TKT-19283-SL",
+    "startTime": "22:00",
+    "endTime": "23:45",
+    "duration": "1h 45m",
+    "categories": ["General Pest Control (GPC)", "Sanitization Service"],
+    "areas": ["Rooms", "Common Area", "Pantry", "Toilets"],
+    "reportText": "General Pest Control treatment carried out at the premium VIP Medical Fitness zones. Residual spraying to control crawling insects completed using Deltacide SC. Applied Advion Cockroach Gel inside kitchenettes and staff lockers. Completely sanitized check-in counters.",
+    "workStatus": "Completed",
+    "methods": ["Spraying", "Residual Treatment", "Gel Baiting"],
+    "chemicals": [
+      {
+        "name": "Deltacide SC",
+        "dilution": "10ml / 1L",
+        "used": "60ml",
+        "batch": "DT-2025-X8",
+        "expiry": "2027-11-20",
+        "remaining": "4.07L"
+      },
+      {
+        "name": "Advion Gel",
+        "dilution": "N/A",
+        "used": "3g",
+        "batch": "AG-9426",
+        "expiry": "2028-04-15",
+        "remaining": "117g"
+      }
+    ],
+    "infestation": {
+      "Cockroach": "Low",
+      "Mosquito": "None",
+      "Drain Fly": "None",
+      "Rodent": "None",
+      "Bed Bug": "None",
+      "Ants": "Low"
+    },
+    "sanitation": "Good",
+    "proofing": "Good",
+    "recommendations": [
+      "Keep pantry doors closed",
+      "Ensure dry mops are used after hours"
+    ],
+    "billing": {
+      "invoiceNo": "INV-2026-0010",
+      "invoiceDate": "2026-05-22",
+      "amount": 1500,
+      "discount": 0,
+      "vat": 75,
+      "total": 1575,
+      "method": "Online Payment",
+      "status": "Paid"
+    },
+    "technicians": ["Hamdy", "Ahmed"],
+    "signatures": {
+      "client": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M12 25 Q35 15 55 35 T85 15' stroke='black' stroke-width='2' fill='none'/></svg>",
+      "technician": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 30 C30 5 70 35 90 20' stroke='blue' stroke-width='1.5' fill='none'/></svg>",
+      "supervisor": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M5 15 L25 35 L45 5 L65 30 L85 10' stroke='green' stroke-width='2' fill='none'/></svg>"
+    }
+  },
+  {
+    "id": "REP-2026-004",
+    "facilityName": "Khorfakkan Hospital",
+    "clientId": "ALW-CLI-5004",
+    "contractNo": "CON-8422-C",
+    "branchName": "Sharjah East Coast",
+    "facilityType": "Hospital",
+    "emirate": "Sharjah",
+    "address": "Khorfakkan, Sharjah, near beach road",
+    "contactPerson": "Mr. Obaid Al Khalfan",
+    "mobile": "+971 56 304 2201",
+    "whatsapp": "+971 56 304 2201",
+    "email": "khorfakkan.hp@moh.gov.ae",
+    "startDate": "2026-02-01",
+    "endDate": "2027-01-31",
+    "validity": "90 Days",
+    "dateOfOperation": "2026-05-18",
+    "ticketNo": "TKT-84812-KH",
+    "startTime": "09:00",
+    "endTime": "12:30",
+    "duration": "3h 30m",
+    "categories": [
+      "General Pest Control (GPC)",
+      "Rodent Control (RCP)",
+      "Termite Control & Barrier"
+    ],
+    "areas": [
+      "Rooms",
+      "Kitchen",
+      "Pantry",
+      "Common Area",
+      "Drainage",
+      "Outdoor Area"
+    ],
+    "reportText": "Extensive hospital interior and perimeter check-up. Placed 15 bait boxes in high-sensitivity external loading docks and utility yards due to coastal rodent activity. Applied gel baiting across emergency kitchens and sterile staff zones.",
+    "workStatus": "Completed",
+    "methods": ["Spraying", "Residual Treatment", "Trapping", "Gel Baiting"],
+    "chemicals": [
+      {
+        "name": "Deltacide SC",
+        "dilution": "10ml / 1L",
+        "used": "150ml",
+        "batch": "DT-2025-X8",
+        "expiry": "2027-11-20",
+        "remaining": "3.92L"
+      },
+      {
+        "name": "Advion Gel",
+        "dilution": "N/A",
+        "used": "10g",
+        "batch": "AG-9426",
+        "expiry": "2028-04-15",
+        "remaining": "107g"
+      }
+    ],
+    "infestation": {
+      "Cockroach": "Medium",
+      "Mosquito": "Low",
+      "Drain Fly": "Low",
+      "Rodent": "High",
+      "Bed Bug": "None",
+      "Ants": "Medium"
+    },
+    "sanitation": "Satisfactory",
+    "proofing": "Satisfactory",
+    "recommendations": [
+      "Repair broken seals in cafeteria backend door",
+      "Schedule deep cleaning of medical store drainage"
+    ],
+    "billing": {
+      "invoiceNo": "INV-2026-0008",
+      "invoiceDate": "2026-05-18",
+      "amount": 3200,
+      "discount": 200,
+      "vat": 150,
+      "total": 3150,
+      "method": "Bank Transfer",
+      "status": "Paid"
+    },
+    "technicians": ["Hussin", "Ahmed"],
+    "signatures": {
+      "client": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M15 15 L45 35 L75 5 L95 25' stroke='black' stroke-width='2' fill='none'/></svg>",
+      "technician": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 30 C30 5 70 35 90 20' stroke='blue' stroke-width='1.5' fill='none'/></svg>",
+      "supervisor": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M5 15 L25 35 L45 5 L65 30 L85 10' stroke='green' stroke-width='2' fill='none'/></svg>"
+    }
+  },
+  {
+    "id": "REP-2026-005",
+    "facilityName": "Maple Clinic",
+    "clientId": "ALW-CLI-3905",
+    "contractNo": "CON-8821-M",
+    "branchName": "Ajman Industrial Clinic",
+    "facilityType": "Clinic",
+    "emirate": "Ajman",
+    "address": "Industrial Area 2, Ajman",
+    "contactPerson": "Dr. John Mathews",
+    "mobile": "+971 6 742 1192",
+    "whatsapp": "+971 50 930 4422",
+    "email": "info@mapleclinic.ae",
+    "startDate": "2026-03-01",
+    "endDate": "2027-02-28",
+    "validity": "30 Days",
+    "dateOfOperation": "2026-05-20",
+    "ticketNo": "TKT-30239-MC",
+    "startTime": "14:00",
+    "endTime": "15:20",
+    "duration": "1h 20m",
+    "categories": ["General Pest Control (GPC)", "Bed Bug Eradication"],
+    "areas": ["Rooms", "Common Area", "Toilets"],
+    "reportText": "Follow-up bed bug scanning in reception beds and clinical observation couches. Applied specific hot steam treatments combined with targeted micro-residual localized perimeter sprays. Zero active cockroach nymphs found.",
+    "workStatus": "Completed",
+    "methods": ["Spraying", "Space Treatment", "Thermal Steam"],
+    "chemicals": [
+      {
+        "name": "Cypermethrin",
+        "dilution": "5ml / 1L",
+        "used": "80ml",
+        "batch": "CP-441-S",
+        "expiry": "2027-08-10",
+        "remaining": "1.67L"
+      }
+    ],
+    "infestation": {
+      "Cockroach": "None",
+      "Mosquito": "None",
+      "Drain Fly": "None",
+      "Rodent": "None",
+      "Bed Bug": "Low",
+      "Ants": "Low"
+    },
+    "sanitation": "Good",
+    "proofing": "Good",
+    "recommendations": [
+      "Recommend heat-drying of all clinic patient linens",
+      "Keep screening windows closed tight"
+    ],
+    "billing": {
+      "invoiceNo": "INV-2026-0009",
+      "invoiceDate": "2026-05-20",
+      "amount": 950,
+      "discount": 50,
+      "vat": 45,
+      "total": 945,
+      "method": "Cash",
+      "status": "Paid"
+    },
+    "technicians": ["Hussin"],
+    "signatures": {
+      "client": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M8 28 Q28 8 50 28 T92 18' stroke='black' stroke-width='1.5' fill='none'/></svg>",
+      "technician": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 30 C30 5 70 35 90 20' stroke='blue' stroke-width='1.5' fill='none'/></svg>",
+      "supervisor": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M5 15 L25 35 L45 5 L65 30 L85 10' stroke='green' stroke-width='2' fill='none'/></svg>"
+    }
+  },
+  {
+    "id": "REP-2026-006",
+    "facilityName": "Family Health Promotion Center",
+    "clientId": "ALW-CLI-5002",
+    "contractNo": "CON-3281-B",
+    "branchName": "Sharjah Sector 3",
+    "facilityType": "Health Center",
+    "emirate": "Sharjah",
+    "address": "Halwan Area, Sharjah",
+    "contactPerson": "Mrs. Noura Al Nooman",
+    "email": "familyhealth.shj@moh.gov.ae",
+    "mobile": "+971 52 110 3381",
+    "whatsapp": "+971 52 110 3381",
+    "startDate": "2026-01-01",
+    "endDate": "2026-12-31",
+    "validity": "Quarterly",
+    "dateOfOperation": "2026-05-15",
+    "ticketNo": "TKT-31289-FH",
+    "startTime": "12:00",
+    "endTime": "13:45",
+    "duration": "1h 45m",
+    "categories": [
+      "Flying Insect Control (FICP)",
+      "Synergized Misting",
+      "General Pest Control (GPC)"
+    ],
+    "areas": ["Pantry", "Common Area", "Rooms", "Toilets", "Drainage"],
+    "reportText": "General pest control spraying alongside enzymatic sanitization for pediatric play rooms, healthcare desks, common hallways, and toilets. High-density baiting completed for drain fly mitigation inside basement sumps.",
+    "workStatus": "Completed",
+    "methods": ["Spraying", "Residual Treatment", "Gel Baiting"],
+    "chemicals": [
+      {
+        "name": "Deltacide SC",
+        "dilution": "10ml / 1L",
+        "used": "50ml",
+        "batch": "DT-2025-X8",
+        "expiry": "2027-11-20",
+        "remaining": "3.87L"
+      },
+      {
+        "name": "Advion Gel",
+        "dilution": "N/A",
+        "used": "2g",
+        "batch": "AG-9426",
+        "expiry": "2028-04-15",
+        "remaining": "105g"
+      }
+    ],
+    "infestation": {
+      "Cockroach": "Low",
+      "Mosquito": "Medium",
+      "Drain Fly": "High",
+      "Rodent": "None",
+      "Bed Bug": "None",
+      "Ants": "Low"
+    },
+    "sanitation": "Good",
+    "proofing": "Good",
+    "recommendations": [
+      "Clean the pediatric common space trash bins twice daily",
+      "Pour biological foam into backend kitchen drains"
+    ],
+    "billing": {
+      "invoiceNo": "INV-2026-0005",
+      "invoiceDate": "2026-05-15",
+      "amount": 1400,
+      "discount": 100,
+      "vat": 65,
+      "total": 1365,
+      "method": "Bank Transfer",
+      "status": "Paid"
+    },
+    "technicians": ["Hamdy", "Ahmed"],
+    "signatures": {
+      "client": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 15 C40 25 60 5 90 35' stroke='black' stroke-width='2' fill='none'/></svg>",
+      "technician": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M10 30 C30 5 70 35 90 20' stroke='blue' stroke-width='1.5' fill='none'/></svg>",
+      "supervisor": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><path d='M5 15 L25 35 L45 5 L65 30 L85 10' stroke='green' stroke-width='2' fill='none'/></svg>"
+    }
+  }
+]

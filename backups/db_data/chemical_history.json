@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-06-12",
+    "name": "DEALTA SEET",
+    "batch": "0044D",
+    "stock": 7,
+    "unit": "L",
+    "receivedDate": "2026-06-12",
+    "expiry": "2026-06-26",
+    "dilution": "10 ML 1/L"
+  },
+  {
+    "date": "2026-06-12",
+    "name": "Advion Gel",
+    "batch": "AG-9426",
+    "stock": 1111,
+    "unit": "g",
+    "receivedDate": "2026-06-12",
+    "expiry": "2028-04-27",
+    "dilution": "N/A"
+  },
+  {
+    "date": "2024-06-01",
+    "name": "Cypermethrin",
+    "batch": "CP-441-S",
+    "stock": 1.75,
+    "unit": "L",
+    "receivedDate": "2024-06-01",
+    "expiry": "2027-08-10",
+    "dilution": "5ml / 1L"
+  },
+  {
+    "date": "2024-05-10",
+    "name": "Deltacide SC",
+    "batch": "DT-2025-X8",
+    "stock": 4.25,
+    "unit": "L",
+    "receivedDate": "2024-05-10",
+    "expiry": "2027-11-20",
+    "dilution": "10ml / 1L"
+  }
+]

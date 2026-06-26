@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Deltacide SC",
+    "receivedDate": "2024-05-10",
+    "dilution": "10ml / 1L",
+    "batch": "DT-2025-X8",
+    "expiry": "2027-11-20",
+    "stock": 4.25,
+    "unit": "L",
+    "alertThreshold": 1
+  },
+  {
+    "name": "Advion Gel",
+    "receivedDate": "2024-03-22",
+    "dilution": "N/A",
+    "batch": "AG-9426",
+    "expiry": "2028-04-15",
+    "stock": 120,
+    "unit": "g",
+    "alertThreshold": 20
+  },
+  {
+    "name": "Cypermethrin",
+    "receivedDate": "2024-06-01",
+    "dilution": "5ml / 1L",
+    "batch": "CP-441-S",
+    "expiry": "2027-08-10",
+    "stock": 1.85,
+    "unit": "L",
+    "alertThreshold": 0.5
+  }
+]

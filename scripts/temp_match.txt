@@ -1,0 +1,132 @@
+src/components/ClientDirectory.tsx:593:        <div className="absolute right-0 top-0 w-64 h-64 bg-[#10B981]/5 rounded-full blur-3xl pointer-events-none" />
+src/components/ClientDirectory.tsx:598:              <Layers className="text-[#10B981] w-5.5 h-5.5" />
+src/components/ClientDirectory.tsx:612:                  ? "bg-[#10B981] text-slate-950 shadow-md shadow-emerald-500/10"
+src/components/ClientDirectory.tsx:643:              className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2.5 pl-10 pr-4 text-xs focus:ring-1 focus:ring-[#10B981] focus:border-[#10B981] outline-none"
+src/components/ClientDirectory.tsx:652:              className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2.5 px-3.5 text-xs focus:ring-1 focus:ring-[#10B981] outline-none cursor-pointer"
+src/components/ClientDirectory.tsx:673:                className="bg-slate-900 border border-slate-800 hover:border-[#10B981]/50 p-5 rounded-2xl shadow-md space-y-4 flex flex-col justify-between transition-all"
+src/components/ClientDirectory.tsx:677:                    <span className="text-[10px] bg-emerald-500/10 text-[#10B981] font-mono font-bold uppercase rounded px-2.5 py-1 tracking-wider border border-[#10B981]/20">
+src/components/ClientDirectory.tsx:712:                        ? "bg-slate-950 text-[#10B981] border border-[#10B981]" 
+src/components/ClientDirectory.tsx:742:              <p className="text-[#10B981] font-bold flex items-center gap-1.5">
+src/components/ClientDirectory.tsx:805:                className="px-4 py-2.5 bg-[#10B981] hover:bg-emerald-400 text-slate-950 font-black rounded-xl transition shrink-0 cursor-pointer shadow-lg shadow-emerald-500/20 text-xs"
+src/components/ClientDirectory.tsx:844:                      <span className="text-[9px] bg-slate-800 text-[#10B981] font-mono border border-[#10B981]/25 py-0.5 px-2 rounded-full">
+src/components/ClientDirectory.tsx:876:                                 className="rounded cursor-pointer accent-[#10B981]"
+src/components/ClientDirectory.tsx:918:                                    className="rounded cursor-pointer accent-[#10B981]"
+src/components/ClientDirectory.tsx:936:                                  className="w-full text-left bg-slate-900 hover:bg-slate-850 border border-[#334155]/60 hover:border-[#10B981]/50 text-slate-300 font-bold rounded px-1 py-0.5 outline-none transition text-[9.5px] flex justify-between items-center gap-0.5 cursor-pointer group"
+src/components/ClientDirectory.tsx:939:                                  <span className={`truncate flex-1 ${report.facilityName ? "text-[#10B981] font-black" : "text-slate-400 font-bold"}`}>
+src/components/ClientDirectory.tsx:942:                                  <span className="text-[7.5px] text-slate-400 group-hover:text-[#10B981] transition-colors shrink-0">
+src/components/ClientDirectory.tsx:1075:                                        className="w-full bg-transparent border-none text-[9.5px] font-mono font-extrabold text-[#10B981] text-right outline-none p-0"
+src/components/ClientDirectory.tsx:1100:                                  className="mx-auto px-1.5 py-0.5 bg-[#10B981] hover:bg-emerald-400 text-slate-950 font-black rounded transition-all duration-75 flex items-center justify-center gap-1 cursor-pointer text-[9px] active:scale-95 shadow-sm"
+src/components/ClientDirectory.tsx:1271:                className="px-6 py-2.5 bg-[#10B981] hover:bg-emerald-400 text-slate-950 font-black rounded-xl transition cursor-pointer"
+src/components/ClientDirectory.tsx:1466:                    <h4 className="text-sm font-black tracking-widest text-[#10B981] font-mono">AL WAFA STAR GROUP</h4>
+src/components/ClientDirectory.tsx:1496:                        <span className="text-[8px] text-[#10B981] uppercase font-bold block">Next Expiry (30d)</span>
+src/components/ClientDirectory.tsx:1497:                        <span className="font-extrabold text-[#10B981] font-mono">{report.endDate || "N/A"}</span>
+src/components/ClientDirectory.tsx:1515:                      <span className="text-[8px] text-[#10B981] uppercase font-bold block mb-1">Official Certification Statement</span>
+src/components/ClientDirectory.tsx:1560:                  className="px-6 py-2.5 rounded-xl bg-[#10B981] hover:bg-emerald-400 text-slate-950 font-black text-xs transition flex items-center gap-1.5 cursor-pointer shadow-lg shadow-emerald-500/20 active:scale-95"
+src/components/ClientDirectory.tsx:1636:                  <label className="text-[9px] uppercase tracking-wider font-extrabold text-[#10B981] block">
+src/components/ClientDirectory.tsx:1647:                        className="w-full bg-slate-950 text-slate-150 border border-slate-700/80 rounded-lg py-1.5 px-2.5 pr-7 text-[10.5px] font-bold font-sans outline-none focus:border-[#10B981] transition"
+src/components/ClientDirectory.tsx:1671:                      className="bg-[#10B981] disabled:bg-slate-800 disabled:text-slate-600 hover:bg-emerald-400 text-slate-950 font-black px-2.5 rounded-lg text-[10.5px] transition flex items-center gap-1 cursor-pointer disabled:cursor-not-allowed transform active:scale-95 duration-75 shrink-0"
+src/components/ClientDirectory.tsx:1689:                        className="text-[#10B981] font-bold hover:underline cursor-pointer"
+src/components/ClientDirectory.tsx:1719:                                  ? "bg-[#10B981]/15 text-[#10B981] border border-[#10B981]/20" 
+src/components/ClientDirectory.tsx:1725:                                <span className="text-[8px] font-extrabold text-[#10B981] shrink-0 font-mono">
+src/components/ChemicalInventory.tsx:183:            <FlaskConical className="text-[#10B981] w-5 h-5 align-middle" />
+src/components/ChemicalInventory.tsx:208:            <span className="text-[10px] bg-emerald-50 text-[#10B981] font-mono font-bold uppercase rounded px-2.5 py-1 tracking-wider border border-emerald-100">
+src/components/ChemicalInventory.tsx:381:                    <div className="h-full bg-[#10B981] rounded-full animate-ping" />
+src/components/Technicians.tsx:860:                              <div className="flex items-center gap-1.5 bg-[#10B981]/15 text-[#10B981] border border-[#10B981]/20 px-3 py-1 rounded-full text-[11px] font-black uppercase font-mono">
+src/components/ClientPortalView.tsx:52:          <span className="text-[10px] bg-[#10B981]/15 text-[#10B981] px-2.5 py-1 rounded-full font-mono uppercase font-bold tracking-widest">
+src/components/ClientPortalView.tsx:69:            className="w-full bg-[#1F2937] border border-[#374151] rounded-xl py-2.5 pl-10 pr-4 text-xs text-slate-200 outline-none focus:border-[#10B981]"
+src/components/ClientPortalView.tsx:93:                  <span className="text-[9px] bg-[#10B981]/15 text-[#10B981] px-2.5 py-1 rounded-md font-extrabold uppercase tracking-wide">
+src/components/ClientPortalView.tsx:119:                  <span className="text-[9px] text-[#10B981] font-mono tracking-widest uppercase block">SERVICE COMPLIANCE REMAINING</span>
+src/components/ClientPortalView.tsx:132:                    className="py-2 bg-emerald-50 hover:bg-emerald-100 text-[#10B981] rounded-lg border border-emerald-200"
+src/components/LocationsRegistry.tsx:188:        <div className="absolute right-0 top-0 w-64 h-64 bg-[#10B981]/5 rounded-full blur-3xl pointer-events-none" />
+src/components/LocationsRegistry.tsx:192:            <span className="text-[10px] bg-emerald-500/15 text-[#10B981] font-mono font-black uppercase rounded-full px-3 py-1 tracking-wider border border-emerald-500/30">
+src/components/LocationsRegistry.tsx:196:              <FileSpreadsheet className="text-[#10B981] w-5.5 h-5.5" />
+src/components/LocationsRegistry.tsx:221:              className="px-4 py-2 bg-[#10B981] hover:bg-emerald-400 text-slate-950 font-black rounded-xl transition cursor-pointer shadow-lg shadow-emerald-500/10 flex items-center gap-1.5"
+src/components/LocationsRegistry.tsx:239:              className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2.5 pl-10 pr-4 text-xs focus:ring-1 focus:ring-[#10B981] focus:border-[#10B981] outline-none placeholder-slate-500"
+src/components/LocationsRegistry.tsx:247:              className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2.5 px-3.5 text-xs focus:ring-1 focus:ring-[#10B981] outline-none cursor-pointer"
+src/components/LocationsRegistry.tsx:263:        <div className="p-3 bg-emerald-500/10 border border-emerald-500/30 text-[#10B981] rounded-2xl flex items-center gap-2 font-bold animate-pulse text-[11px]">
+src/components/LocationsRegistry.tsx:264:          <Sparkles className="w-4 h-4 animate-spin text-[#10B981]" />
+src/components/LocationsRegistry.tsx:284:                    <span className="text-[9px] bg-slate-850 text-[#10B981] border border-emerald-500/20 py-0.5 px-2 rounded-full font-bold">
+src/components/LocationsRegistry.tsx:323:                                className="w-full bg-slate-900 border border-slate-800 text-slate-100 font-bold rounded px-2 py-1 outline-none focus:border-[#10B981]"
+src/components/LocationsRegistry.tsx:347:                                  className="w-full bg-slate-900 border border-slate-800 text-[#10B981] font-mono text-[10px] rounded px-2 py-1 outline-none focus:border-[#10B981]"
+src/components/LoginScreen.tsx:203:                  ? "bg-[#10B981] text-slate-950 shadow-md shadow-emerald-500/20" 
+src/components/LoginScreen.tsx:218:          <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-12 w-32 h-32 bg-[#10B981]/15 rounded-full blur-2xl pointer-events-none" />
+src/components/LoginScreen.tsx:224:                ? "bg-emerald-500/20 text-[#10B981] border-[#10B981] scale-110" 
+src/components/LoginScreen.tsx:227:                  : "bg-slate-800 text-[#10B981] border-slate-705"
+src/components/LoginScreen.tsx:246:            <h2 className="text-sm font-extrabold text-[#10B981]">
+src/components/LoginScreen.tsx:271:                className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-xs font-semibold rounded-xl pl-10 pr-4 py-3 outline-none focus:border-[#10B981] transition-all focus:ring-1 focus:ring-[#10B981]/20 shadow-inner"
+src/components/LoginScreen.tsx:290:                className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-xs font-bold font-mono tracking-widest placeholder:font-sans placeholder:tracking-normal rounded-xl pl-10 pr-10 py-3 outline-none focus:border-[#10B981] text-center transition-all focus:ring-1 focus:ring-[#10B981]/20 shadow-inner"
+src/components/LoginScreen.tsx:316:                  className="rounded border-slate-700 bg-slate-950 text-[#10B981] focus:ring-[#10B981] w-3.5 h-3.5 accent-[#10B981]"
+src/components/LoginScreen.tsx:326:              className="w-full bg-[#10B981] hover:bg-emerald-400 text-slate-950 font-extrabold py-3.5 rounded-xl transition duration-150 transform hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-emerald-500/10 text-xs"
+src/components/Sidebar.tsx:130:            className="p-1.5 bg-slate-800 hover:bg-slate-700 hover:text-white rounded-lg border border-slate-700 text-[#10B981] transition-all cursor-pointer flex items-center justify-center shrink-0"
+src/components/Sidebar.tsx:151:                  ? "bg-[#10B981] text-slate-950 font-bold shadow-md shadow-emerald-500/20" 
+src/components/Sidebar.tsx:215:                  ? "bg-gradient-to-r from-[#10B981]/20 to-emerald-500/5 text-[#10B981] border-l-4 border-[#10B981] shadow-inner" 
+src/components/Sidebar.tsx:223:                  ? "text-[#10B981]" 
+src/components/AIPestDetection.tsx:190:              className="w-full py-3 bg-slate-900 border border-purple-500 hover:border-purple-400 text-[#10B981] font-black rounded-xl text-xs uppercase cursor-pointer flex items-center justify-center gap-1.5 transition-all shadow-md active:scale-95"
+src/components/AIPestDetection.tsx:220:                <RefreshCw className="w-12 h-12 text-[#10B981] animate-spin mx-auto" />
+src/components/AIPestDetection.tsx:255:                  <div className="p-4 bg-[#10B981]/5 border border-[#10B981]/20 rounded-xl space-y-1">
+src/components/CompletedRegistry.tsx:205:          <span className="text-xs bg-[#10B981]/15 text-[#10B981] font-extrabold px-3 py-1.5 rounded-full border border-emerald-500/20 shadow-xs flex items-center gap-1">
+src/components/CompletedRegistry.tsx:206:            <span className="w-1.5 h-1.5 bg-[#10B981] rounded-full inline-block animate-pulse" />
+src/components/AdminSettings.tsx:406:          <div className="p-3 bg-emerald-500/10 text-[#10B981] rounded-2xl border border-emerald-500/20">
+src/components/AdminSettings.tsx:422:        <div className="p-4 bg-emerald-950/30 border border-emerald-500/30 text-[#10B981] rounded-2xl flex items-center gap-2.5 font-bold animate-bounce">
+src/components/AdminSettings.tsx:441:                ? "bg-[#10B981] text-slate-950 shadow-md shadow-emerald-500/20"
+src/components/AdminSettings.tsx:462:                className="w-14 h-14 rounded-full border-2 border-[#10B981] bg-slate-950 object-cover shadow-lg" 
+src/components/AdminSettings.tsx:469:            <span className="absolute bottom-0 right-0 w-4 h-4 bg-[#10B981] border-2 border-[#1E293B] rounded-full" />
+src/components/AdminSettings.tsx:534:                      role === r ? "bg-[#10B981]/10 text-[#10B981]" : "text-slate-300"
+src/components/AdminSettings.tsx:538:                    {role === r && <CheckCircle2 className="w-4 h-4 text-[#10B981]" />}
+src/components/AdminSettings.tsx:579:                    ? "bg-[#10B981] text-slate-950 font-black"
+src/components/AdminSettings.tsx:591:                    ? "bg-[#10B981] text-slate-950 font-black"
+src/components/AdminSettings.tsx:645:                    ? "bg-[#10B981] text-slate-950 font-black shadow-lg"
+src/components/AdminSettings.tsx:658:                    ? "bg-[#10B981] text-slate-950 font-black shadow-lg"
+src/components/AdminSettings.tsx:678:              <Building className="w-4 h-4 text-[#10B981]" />
+src/components/AdminSettings.tsx:692:                  className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2 px-3 text-xs outline-none focus:border-[#10B981]"
+src/components/AdminSettings.tsx:702:                  className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2 px-3 text-xs outline-none focus:border-[#10B981]"
+src/components/AdminSettings.tsx:711:              className="w-full bg-[#10B981] hover:bg-emerald-400 text-slate-950 py-2.5 px-4 rounded-xl font-bold flex items-center justify-center gap-2 transition cursor-pointer"
+src/components/AdminSettings.tsx:742:                  className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2 px-3 text-xs outline-none focus:border-[#10B981]"
+src/components/AdminSettings.tsx:752:                  className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2 px-3 text-xs outline-none focus:border-[#10B981]"
+src/components/AdminSettings.tsx:763:                  className="w-full bg-slate-950 text-slate-100 border border-slate-700 rounded-xl py-2 px-3 text-xs outline-none focus:border-[#10B981]"
+src/components/AdminSettings.tsx:772:              className="w-full bg-[#10B981] hover:bg-emerald-400 text-slate-950 py-2.5 px-4 rounded-xl font-bold flex items-center justify-center gap-2 transition cursor-pointer"
+src/components/AdminSettings.tsx:790:                <ShieldAlert className="w-4.5 h-4.5 text-[#10B981] animate-pulse" />
+src/components/AdminSettings.tsx:821:                className="w-full bg-slate-950 text-slate-100 border border-slate-750 hover:border-slate-700 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] font-mono font-bold tracking-widest text-center mt-2"
+src/components/AdminSettings.tsx:842:                className="w-full bg-slate-950 text-slate-100 border border-slate-750 hover:border-slate-700 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] font-mono font-bold tracking-widest text-center mt-2"
+src/components/AdminSettings.tsx:850:              className="w-full md:w-auto bg-[#10B981] hover:bg-emerald-400 text-slate-950 py-2.5 px-6 rounded-xl font-extrabold transition flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-emerald-500/10 text-xs"
+src/components/AdminSettings.tsx:863:          <h3 className="text-sm font-extrabold text-[#10B981] flex items-center gap-2">
+src/components/AdminSettings.tsx:864:            <UserPlus className="w-5 h-5 text-[#10B981]" />
+src/components/AdminSettings.tsx:884:          <div className="p-3 bg-emerald-950/20 border border-[#10B981]/20 text-[#10B981] text-[10.5px] font-bold rounded-xl flex items-center gap-2 animate-fade-in">
+src/components/AdminSettings.tsx:894:            <h4 className="text-xs font-black text-[#10B981] uppercase tracking-wider font-mono">
+src/components/AdminSettings.tsx:908:                  className="w-full bg-slate-950 text-slate-100 border border-slate-750 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] font-mono"
+src/components/AdminSettings.tsx:921:                  className="w-full bg-slate-950 text-slate-100 border border-slate-750 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] font-mono"
+src/components/AdminSettings.tsx:941:                        className="w-3.5 h-3.5 text-[#10B981] cursor-pointer accent-[#10B981]"
+src/components/AdminSettings.tsx:952:                className="w-full bg-[#10B981] hover:bg-emerald-400 text-slate-950 py-2.5 px-3 rounded-xl font-black text-xs transition flex justify-center items-center gap-2 cursor-pointer shadow-lg shadow-emerald-500/10 mt-4"
+src/components/AdminSettings.tsx:998:                              className="bg-slate-950 text-emerald-400 border border-slate-700 focus:border-[#10B981] px-2 py-1 rounded-lg text-xs w-28 font-mono outline-none"
+src/components/AdminSettings.tsx:1013:                              className="bg-slate-950 text-slate-200 border border-slate-700 focus:border-[#10B981] px-1.5 py-1 rounded-lg text-xs outline-none"
+src/components/AdminSettings.tsx:1038:                                className="bg-[#10B981] hover:bg-emerald-400 text-slate-950 px-2.5 py-1 rounded-lg font-black text-[10px] cursor-pointer transition shadow-md shadow-emerald-500/10"
+src/components/AdminSettings.tsx:1128:          <BookOpen className="w-4 h-4 text-[#10B981]" />
+src/components/AdminSettings.tsx:1196:              className="w-full py-2.5 bg-[#10B981] hover:bg-emerald-400 text-slate-950 font-extrabold rounded-xl transition cursor-pointer"
+src/components/EngineeringReport.tsx:2306:                            className="p-2 bg-emerald-500/10 hover:bg-emerald-500/20 text-[#10B981] hover:text-white rounded-lg transition-all cursor-pointer opacity-80 group-hover:opacity-100"
+src/components/EngineeringReport.tsx:2342:                     <div className="px-2.5 py-1.5 bg-[#10B981] flex items-center justify-center">
+src/components/EngineeringReport.tsx:2355:                      className="bg-transparent hover:bg-[#10B981]/10 text-[#10B981] font-sans font-bold text-[10px] uppercase tracking-wider px-3.5 py-1.5 rounded-full border border-[#10B981] flex items-center gap-1.5 transition-all cursor-pointer active:scale-95"
+src/components/EngineeringReport.tsx:2366:                          <span className="text-[10px] font-black tracking-wider uppercase text-[#10B981]">{t("Select Template", "কাজের বিবরণ নির্বাচন", "اختر القالب")}</span>
+src/components/EngineeringReport.tsx:2516:                        className={`w-full bg-[#0B0F19] border placeholder-slate-600 text-slate-100 rounded-xl py-2.5 pl-3 pr-16 outline-none focus:border-[#10B981] font-medium font-sans ${
+src/components/EngineeringReport.tsx:2533:                        className="absolute right-1.5 top-1.5 bottom-1.5 px-2 bg-emerald-500/10 hover:bg-emerald-500/20 active:scale-95 text-[#10B981] border border-emerald-500/20 rounded-lg flex items-center gap-1 transition-all cursor-pointer font-sans font-black text-[9px]"
+src/components/EngineeringReport.tsx:2544:                          <span className="text-[10px] font-black text-[#10B981] font-mono tracking-wider uppercase flex items-center gap-1.5">
+src/components/EngineeringReport.tsx:2566:                            className="col-span-7 bg-[#0B0F19] text-white border border-slate-700 rounded-xl px-2.5 py-1.5 text-xs focus:border-[#10B981] outline-none font-sans"
+src/components/EngineeringReport.tsx:2613:                                    <span className="text-[8.5px] font-black bg-[#10B981]/15 text-[#10B981] px-1.5 py-0.5 rounded uppercase font-mono tracking-wider shrink-0">
+src/components/EngineeringReport.tsx:2639:                                    <span className="text-[8.5px] font-black bg-[#10B981]/15 text-[#10B981] px-1.5 py-0.5 rounded uppercase font-mono tracking-wider shrink-0">
+src/components/EngineeringReport.tsx:2733:                      className="w-full bg-cyan-100/90 hover:bg-cyan-100 border-2 border-cyan-300 focus:border-[#10B981] placeholder-slate-500 text-slate-900 rounded-xl py-2.5 px-3.5 outline-none font-bold text-[11px] tracking-wide transition-colors shadow-inner resize-none min-h-[42px] overflow-hidden leading-tight"
+src/components/EngineeringReport.tsx:2850:                    className="w-full bg-cyan-100/90 hover:bg-cyan-100 border-2 border-cyan-300 focus:border-[#10B981] placeholder-slate-500 text-slate-900 rounded-xl py-2.5 px-3.5 outline-none font-bold text-[11px] tracking-wide transition-colors shadow-inner resize-none min-h-[42px] overflow-hidden leading-tight"
+src/components/EngineeringReport.tsx:2977:                        className="w-full bg-[#0B0F19] border border-slate-700 focus:border-[#10B981] placeholder-slate-600 text-slate-300 rounded-xl py-3 px-4 outline-none font-medium text-[12px] tracking-wide transition-colors shadow-inner min-h-[56px] overflow-hidden leading-relaxed"
+src/components/EngineeringReport.tsx:3054:                                    : 'hover:bg-slate-900 text-white hover:text-[#10B981]'
+src/components/EngineeringReport.tsx:3062:                                  <span className="text-[10px] text-[#10B981] font-bold bg-emerald-950/60 px-2 py-0.5 rounded-full border border-emerald-900/40">✓</span>
+src/components/EngineeringReport.tsx:3439:            <span className="text-[10px] font-black tracking-widest text-[#10B981] uppercase font-mono bg-[#10B981]/10 px-2 py-0.5 rounded border border-[#10B981]/25 animate-pulse">
+src/components/EngineeringReport.tsx:4232:                          { hex: "#10B981", label: "Green" },
+src/App.tsx:60:      emerald: { hex: "#10B981", hover: "#059669", light: "rgba(16, 185, 129, 0.15)" },
+src/App.tsx:156:        .text-\\[\\#10B981\\], .bg-\\[\\#10B981\\], .text-white.bg-\\[\\#10B981\\] {
+src/App.tsx:603:                  <span className="flex items-center gap-1.5 bg-emerald-500/10 text-[#10B981] border border-emerald-500/20 px-2 py-1 rounded-xl text-[10px] font-black tracking-wider uppercase font-mono">
+src/App.tsx:638:                className="w-9 h-9 bg-slate-850 rounded-full flex items-center justify-center font-bold text-xs border border-slate-700 text-[#10B981] hover:border-[#10B981] transition-all cursor-pointer overflow-hidden shadow-sm shrink-0" 
+src/App.tsx:869:                  className="w-full bg-slate-950 border border-slate-700 text-slate-100 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] focus:ring-1 focus:ring-[#10B981]"
+src/App.tsx:885:                  className="w-full bg-slate-950 border border-slate-700 text-slate-100 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] focus:ring-1 focus:ring-[#10B981]"
+src/App.tsx:901:                  className="w-full bg-slate-950 border border-slate-700 text-slate-100 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] focus:ring-1 focus:ring-[#10B981]"
+src/App.tsx:917:                  className="w-full bg-slate-950 border border-slate-700 text-slate-100 rounded-xl py-2.5 px-3 text-xs outline-none focus:border-[#10B981] focus:ring-1 focus:ring-[#10B981]"
+src/App.tsx:931:                      className="w-12 h-12 rounded-full border border-[#10B981] bg-slate-950 object-cover"
+src/App.tsx:951:                      className="text-xs text-slate-400 file:mr-3 file:py-1.5 file:px-3 file:rounded-xl file:border-0 file:text-[10px] file:font-semibold file:bg-slate-800 file:text-[#10B981] hover:file:bg-slate-700 transition cursor-pointer"
+src/App.tsx:979:                className="px-5 py-2.5 bg-[#10B981] hover:bg-emerald-400 text-slate-950 rounded-xl transition shadow-lg shadow-emerald-500/20 cursor-pointer"

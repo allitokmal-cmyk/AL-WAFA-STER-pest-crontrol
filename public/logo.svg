@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+    <defs>
+        <radialGradient id="bgGlow" cx="50%" cy="30%" r="80%" fx="50%" fy="20%">
+            <stop offset="0%" stop-color="#ffffff" />
+            <stop offset="60%" stop-color="#fafafa" />
+            <stop offset="100%" stop-color="#f3f4f6" />
+        </radialGradient>
+        <linearGradient id="redBase" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ef1c24" />
+            <stop offset="50%" stop-color="#3b82f6" />
+            <stop offset="100%" stop-color="#0d9488" />
+        </linearGradient>
+        <filter id="appShadow" x="-5%" y="-5%" width="112%" height="114%">
+            <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#0f172a" flood-opacity="0.12" />
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06" />
+        </filter>
+        <filter id="logoGlow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#ef1c24" flood-opacity="0.15" />
+        </filter>
+        <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ef1c24" />
+            <stop offset="15%" stop-color="#e11d48" />
+            <stop offset="100%" stop-color="#9f1239" />
+        </linearGradient>
+    </defs>
+
+    <!-- Solid base to guarantee absolutely no black corners/margins under Apple iOS / desktop platforms -->
+    <rect width="512" height="512" fill="#ffffff" />
+
+    <!-- Outer 3D Gloss Red Base Lip -->
+    <rect x="20" y="32" width="472" height="460" rx="104" fill="url(#redBase)" />
+    <!-- White Inner Body Rounded Container -->
+    <rect x="20" y="20" width="472" height="452" rx="100" fill="url(#bgGlow)" filter="url(#appShadow)" />
+
+    <!-- Red Bottom lip bevel shadow effect -->
+    <path d="M 20,380 A 100,100 0 0,0 120,472 L 392,472 A 100,100 0 0,0 492,380 L 492,425 A 100,100 0 0,1 392,492 L 120,492 A 100,100 0 0,1 20,425 Z" fill="#9f1239" opacity="0.18" />
+    
+    <!-- Red Accent Rim Reflection Stripe at the bottom edge -->
+    <path d="M 40,432 C 80,458 160,468 256,468 C 352,468 432,458 472,432 L 472,438 C 432,468 352,472 256,472 C 160,472 80,468 40,438 Z" fill="#ef1c24" />
+
+    <!-- Main Skyline Diamond Towers (Rendered beautifully with pure vector shapes) -->
+    <g filter="url(#logoGlow)">
+        <!-- Tower 1: Tallest Left Tower -->
+        <!-- Center x calculated from spacing. Height: 10 diamonds -->
+        <!-- Diamond positions dynamically plotted below -->
+        
+        <!-- Ground support points (Left & Right) -->
+        <rect x="106.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 111 291)" fill="url(#diamondGrad)" />
+        <rect x="390.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 395 291)" fill="url(#diamondGrad)" />
+
+        <!-- Column 1 (height 10) at x=124 -->
+        <rect x="119.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 124 291)" fill="url(#diamondGrad)" />
+        <rect x="119.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 124 276)" fill="url(#diamondGrad)" />
+        <rect x="119.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 124 261)" fill="url(#diamondGrad)" />
+        <rect x="119.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 124 246)" fill="url(#diamondGrad)" />
+        <rect x="119.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 124 231)" fill="url(#diamondGrad)" />
+        <rect x="119.5" y="211.5" width="9" height="9" rx="0.5" transform="rotate(45 124 216)" fill="url(#diamondGrad)" opacity="0.9" />
+        <rect x="119.5" y="196.5" width="9" height="9" rx="0.5" transform="rotate(45 124 201)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="119.5" y="181.5" width="9" height="9" rx="0.5" transform="rotate(45 124 186)" fill="url(#diamondGrad)" opacity="0.7" />
+        <rect x="120.5" y="167.5" width="7" height="7" rx="0.5" transform="rotate(45 124 171)" fill="url(#diamondGrad)" opacity="0.5" />
+        <rect x="121.5" y="152.5" width="5" height="5" rx="0.5" transform="rotate(45 124 155)" fill="url(#diamondGrad)" opacity="0.3" />
+
+        <!-- Column 2 (height 9) at x=137 -->
+        <rect x="132.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 137 291)" fill="url(#diamondGrad)" />
+        <rect x="132.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 137 276)" fill="url(#diamondGrad)" />
+        <rect x="132.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 137 261)" fill="url(#diamondGrad)" />
+        <rect x="132.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 137 246)" fill="url(#diamondGrad)" />
+        <rect x="132.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 137 231)" fill="url(#diamondGrad)" />
+        <rect x="132.5" y="211.5" width="9" height="9" rx="0.5" transform="rotate(45 137 216)" fill="url(#diamondGrad)" opacity="0.9" />
+        <rect x="132.5" y="196.5" width="9" height="9" rx="0.5" transform="rotate(45 137 201)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="133.5" y="182.5" width="7" height="7" rx="0.5" transform="rotate(45 137 186)" fill="url(#diamondGrad)" opacity="0.6" />
+        <rect x="134.5" y="168.5" width="5" height="5" rx="0.5" transform="rotate(45 137 171)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 3 (height 8) at x=150 -->
+        <rect x="145.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 150 291)" fill="url(#diamondGrad)" />
+        <rect x="145.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 150 276)" fill="url(#diamondGrad)" />
+        <rect x="145.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 150 261)" fill="url(#diamondGrad)" />
+        <rect x="145.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 150 246)" fill="url(#diamondGrad)" />
+        <rect x="145.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 150 231)" fill="url(#diamondGrad)" />
+        <rect x="145.5" y="211.5" width="9" height="9" rx="0.5" transform="rotate(45 150 216)" fill="url(#diamondGrad)" opacity="0.9" />
+        <rect x="146.5" y="197.5" width="7" height="7" rx="0.5" transform="rotate(45 150 201)" fill="url(#diamondGrad)" opacity="0.7" />
+        <rect x="147.5" y="183.5" width="5" height="5" rx="0.5" transform="rotate(45 150 186)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 4 (height 7) at x=163 -->
+        <rect x="158.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 163 291)" fill="url(#diamondGrad)" />
+        <rect x="158.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 163 276)" fill="url(#diamondGrad)" />
+        <rect x="158.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 163 261)" fill="url(#diamondGrad)" />
+        <rect x="158.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 163 246)" fill="url(#diamondGrad)" />
+        <rect x="158.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 163 231)" fill="url(#diamondGrad)" opacity="0.9" />
+        <rect x="159.5" y="212.5" width="7" height="7" rx="0.5" transform="rotate(45 163 216)" fill="url(#diamondGrad)" opacity="0.7" />
+        <rect x="160.5" y="198.5" width="5" height="5" rx="0.5" transform="rotate(45 163 201)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 5 (height 6) at x=176 -->
+        <rect x="171.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 176 291)" fill="url(#diamondGrad)" />
+        <rect x="171.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 176 276)" fill="url(#diamondGrad)" />
+        <rect x="171.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 176 261)" fill="url(#diamondGrad)" />
+        <rect x="171.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 176 246)" fill="url(#diamondGrad)" opacity="0.9" />
+        <rect x="172.5" y="227.5" width="7" height="7" rx="0.5" transform="rotate(45 176 231)" fill="url(#diamondGrad)" opacity="0.6" />
+        <rect x="173.5" y="213.5" width="5" height="5" rx="0.5" transform="rotate(45 176 216)" fill="url(#diamondGrad)" opacity="0.3" />
+
+        <!-- Column 6 (height 5) at x=189 -->
+        <rect x="184.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 189 291)" fill="url(#diamondGrad)" />
+        <rect x="184.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 189 276)" fill="url(#diamondGrad)" />
+        <rect x="184.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 189 261)" fill="url(#diamondGrad)" opacity="0.9" />
+        <rect x="185.5" y="242.5" width="7" height="7" rx="0.5" transform="rotate(45 189 246)" fill="url(#diamondGrad)" opacity="0.6" />
+        <rect x="186.5" y="228.5" width="5" height="5" rx="0.5" transform="rotate(45 189 231)" fill="url(#diamondGrad)" opacity="0.3" />
+
+        <!-- Column 7 (height 4) at x=202 -->
+        <rect x="197.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 202 291)" fill="url(#diamondGrad)" />
+        <rect x="197.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 202 276)" fill="url(#diamondGrad)" opacity="0.9" />
+        <rect x="198.5" y="257.5" width="7" height="7" rx="0.5" transform="rotate(45 202 261)" fill="url(#diamondGrad)" opacity="0.6" />
+        <rect x="199.5" y="243.5" width="5" height="5" rx="0.5" transform="rotate(45 202 246)" fill="url(#diamondGrad)" opacity="0.3" />
+
+        <!-- Column 8 (height 3) at x=215 -->
+        <rect x="210.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 215 291)" fill="url(#diamondGrad)" />
+        <rect x="210.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 215 276)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="211.5" y="258.5" width="5" height="5" rx="0.5" transform="rotate(45 215 261)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 9 (height 2) at x=228 -->
+        <rect x="223.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 228 291)" fill="url(#diamondGrad)" />
+        <rect x="224.5" y="272.5" width="7" height="7" rx="0.5" transform="rotate(45 228 276)" fill="url(#diamondGrad)" opacity="0.5" />
+
+        <!-- Column 10 (height 6) at x=241 - TOWER 2 STARTS -->
+        <rect x="236.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 241 291)" fill="url(#diamondGrad)" />
+        <rect x="236.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 241 276)" fill="url(#diamondGrad)" />
+        <rect x="236.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 241 261)" fill="url(#diamondGrad)" />
+        <rect x="236.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 241 246)" fill="url(#diamondGrad)" />
+        <rect x="236.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 241 231)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="237.5" y="212.5" width="7" height="7" rx="0.5" transform="rotate(45 241 216)" fill="url(#diamondGrad)" opacity="0.5" />
+
+        <!-- Column 11 (height 7) at x=254 -->
+        <rect x="249.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 254 291)" fill="url(#diamondGrad)" />
+        <rect x="249.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 254 276)" fill="url(#diamondGrad)" />
+        <rect x="249.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 254 261)" fill="url(#diamondGrad)" />
+        <rect x="249.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 254 246)" fill="url(#diamondGrad)" />
+        <rect x="249.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 254 231)" fill="url(#diamondGrad)" />
+        <rect x="249.5" y="211.5" width="9" height="9" rx="0.5" transform="rotate(45 254 216)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="250.5" y="197.5" width="7" height="7" rx="0.5" transform="rotate(45 254 201)" fill="url(#diamondGrad)" opacity="0.5" />
+
+        <!-- Column 12 (height 6) at x=267 -->
+        <rect x="262.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 267 291)" fill="url(#diamondGrad)" />
+        <rect x="262.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 267 276)" fill="url(#diamondGrad)" />
+        <rect x="262.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 267 261)" fill="url(#diamondGrad)" />
+        <rect x="262.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 267 246)" fill="url(#diamondGrad)" />
+        <rect x="262.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 267 231)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="263.5" y="212.5" width="7" height="7" rx="0.5" transform="rotate(45 267 216)" fill="url(#diamondGrad)" opacity="0.5" />
+
+        <!-- Column 13 (height 5) at x=280 -->
+        <rect x="275.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 280 291)" fill="url(#diamondGrad)" />
+        <rect x="275.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 280 276)" fill="url(#diamondGrad)" />
+        <rect x="275.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 280 261)" fill="url(#diamondGrad)" />
+        <rect x="275.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 280 246)" fill="url(#diamondGrad)" opacity="0.7" />
+        <rect x="276.5" y="227.5" width="7" height="7" rx="0.5" transform="rotate(45 280 231)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 14 (height 4) at x=293 -->
+        <rect x="288.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 293 291)" fill="url(#diamondGrad)" />
+        <rect x="288.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 293 276)" fill="url(#diamondGrad)" />
+        <rect x="288.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 293 261)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="289.5" y="242.5" width="7" height="7" rx="0.5" transform="rotate(45 293 246)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 15 (height 3) at x=306 -->
+        <rect x="301.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 306 291)" fill="url(#diamondGrad)" />
+        <rect x="301.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 306 276)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="302.5" y="257.5" width="7" height="7" rx="0.5" transform="rotate(45 306 261)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 16 (height 5) at x=319 - TOWER 3 STARTS -->
+        <rect x="314.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 319 291)" fill="url(#diamondGrad)" />
+        <rect x="314.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 319 276)" fill="url(#diamondGrad)" />
+        <rect x="314.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 319 261)" fill="url(#diamondGrad)" />
+        <rect x="314.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 319 246)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="315.5" y="227.5" width="7" height="7" rx="0.5" transform="rotate(45 319 231)" fill="url(#diamondGrad)" opacity="0.5" />
+
+        <!-- Column 17 (height 6) at x=332 -->
+        <rect x="327.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 332 291)" fill="url(#diamondGrad)" />
+        <rect x="327.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 332 276)" fill="url(#diamondGrad)" />
+        <rect x="327.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 332 261)" fill="url(#diamondGrad)" />
+        <rect x="327.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 332 246)" fill="url(#diamondGrad)" />
+        <rect x="327.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 332 231)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="328.5" y="212.5" width="7" height="7" rx="0.5" transform="rotate(45 332 216)" fill="url(#diamondGrad)" opacity="0.5" />
+
+        <!-- Column 18 (height 7) at x=345 -->
+        <rect x="340.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 345 291)" fill="url(#diamondGrad)" />
+        <rect x="340.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 345 276)" fill="url(#diamondGrad)" />
+        <rect x="340.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 345 261)" fill="url(#diamondGrad)" />
+        <rect x="340.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 345 246)" fill="url(#diamondGrad)" />
+        <rect x="340.5" y="226.5" width="9" height="9" rx="0.5" transform="rotate(45 345 231)" fill="url(#diamondGrad)" />
+        <rect x="340.5" y="211.5" width="9" height="9" rx="0.5" transform="rotate(45 345 216)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="341.5" y="197.5" width="7" height="7" rx="0.5" transform="rotate(45 345 201)" fill="url(#diamondGrad)" opacity="0.5" />
+
+        <!-- Column 19 (height 5) at x=358 -->
+        <rect x="353.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 358 291)" fill="url(#diamondGrad)" />
+        <rect x="353.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 358 276)" fill="url(#diamondGrad)" />
+        <rect x="353.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 358 261)" fill="url(#diamondGrad)" />
+        <rect x="353.5" y="241.5" width="9" height="9" rx="0.5" transform="rotate(45 358 246)" fill="url(#diamondGrad)" opacity="0.8" />
+        <rect x="354.5" y="227.5" width="7" height="7" rx="0.5" transform="rotate(45 358 231)" fill="url(#diamondGrad)" opacity="0.4" />
+
+        <!-- Column 20 (height 3) at x=371 -->
+        <rect x="366.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 371 291)" fill="url(#diamondGrad)" />
+        <rect x="366.5" y="271.5" width="9" height="9" rx="0.5" transform="rotate(45 371 276)" fill="url(#diamondGrad)" />
+        <rect x="366.5" y="256.5" width="9" height="9" rx="0.5" transform="rotate(45 371 261)" fill="url(#diamondGrad)" opacity="0.6" />
+
+        <!-- Solid horizontal ground diamond strip -->
+        <rect x="150.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 155 291)" fill="url(#diamondGrad)" />
+        <rect x="163.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 168 291)" fill="url(#diamondGrad)" />
+        <rect x="176.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 181 291)" fill="url(#diamondGrad)" />
+        <rect x="223.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 228 291)" fill="url(#diamondGrad)" />
+        <rect x="275.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 280 291)" fill="url(#diamondGrad)" />
+        <rect x="288.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 293 291)" fill="url(#diamondGrad)" />
+        <rect x="301.5" y="286.5" width="9" height="9" rx="0.5" transform="rotate(45 306 291)" fill="url(#diamondGrad)" />
+    </g>
+
+    <!-- Arabic Text 'الوفاء' exactly styled like the logo card -->
+    <text x="256" y="372" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="52" fill="#ef1c24" text-anchor="middle" letter-spacing="1">الوفاء</text>
+
+    <!-- Left & Right Flanking Red Whisker Lines -->
+    <path d="M 85 360 L 175 360" stroke="#ef1c24" stroke-width="3" stroke-linecap="round" />
+    <path d="M 337 360 L 427 360" stroke="#ef1c24" stroke-width="3" stroke-linecap="round" />
+
+    <!-- English text 'al wafa' in thick elegant modern lowercase geometric font -->
+    <text x="256" y="420" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="800" font-size="36" fill="#ef1c24" text-anchor="middle" letter-spacing="1">al wafa</text>
+</svg>
